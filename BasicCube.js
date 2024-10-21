@@ -11,7 +11,7 @@ class BasicCube {
         let program = new ShaderProgram(gl, this, vertexShader, fragmentShader);
 
         this.draw = () => {
-            // program.use();
+            program.use();
         };
     }
 };
